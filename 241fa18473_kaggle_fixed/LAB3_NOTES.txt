@@ -1,0 +1,2 @@
+Lab 3 Git-based version control workflow prepared for the Loan Prediction project.
+Use the commands in GIT_COMMANDS.txt to demonstrate init, branch, commit, merge, log, rollback and revert.

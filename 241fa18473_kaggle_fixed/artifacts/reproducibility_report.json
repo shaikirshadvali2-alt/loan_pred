@@ -1,0 +1,12 @@
+{
+    "test_name": "Loan Pipeline Reproducibility Validation",
+    "parameters": {
+        "n_estimators": 100,
+        "max_depth": 10,
+        "random_state": 42
+    },
+    "execution_1_f1": 0.8901098901098901,
+    "execution_2_f1": 0.8901098901098901,
+    "is_strictly_reproducible": true,
+    "status": "PASSED"
+}

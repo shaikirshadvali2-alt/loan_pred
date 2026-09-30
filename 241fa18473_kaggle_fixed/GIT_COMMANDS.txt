@@ -1,0 +1,20 @@
+EXPERIMENT 3 - GIT COMMANDS
+
+git init
+git add .
+git commit -m "Initial loan prediction project"
+git branch lab3-feature
+git checkout lab3-feature
+# make a small documented change
+git add .
+git commit -m "Update Lab 3 feature branch"
+git checkout master
+git merge lab3-feature
+git log --oneline --all --graph
+git status
+
+# Rollback working-file change (before commit)
+git restore <file_name>
+
+# Revert a committed change safely
+git revert <commit_id>
